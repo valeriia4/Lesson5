@@ -1,0 +1,78 @@
+header {
+	background:#696969; 
+	text-align: center;
+	padding: 10px;
+}
+
+body{
+	background-color:#3B3F45; 
+}
+footer {
+	background:#696969;
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+}
+h1, h2{
+margin: 0;
+font-family: Trebuchet MS, sans-serif;
+color: #CD5C5C;
+}
+ ul{
+ 	 list-style-type: none;
+ 	 padding-left: 0;
+ }
+ li{
+ 	font-family: Arial, sans-serif;
+	max-width: 500px;
+	margin: auto;
+ 	padding: 0;
+ 	color: #fff;
+	background: #7A7593;
+  	line-height: 1.5em;
+  	text-align: left;
+  }
+  li:nth-child(2n){
+  color:#fff;
+  background-color: #88839E;
+}
+ input:checked + span {
+    text-decoration: line-through;
+   }
+
+.item1:after {  
+    content: '( for the next lessons about CSS )'; 
+    color: #A9A9A9;
+    font-size: 10px; 
+    padding-left: 5px;
+}  
+.item2:after {  
+    content: '( for more CSS manipulations )'; 
+    color: #A9A9A9;
+    font-size: 10px; 
+    padding-left: 5px;
+} 
+.item3:after {  
+    content: '( because there are awesome )'; 
+    color: #A9A9A9;
+    font-size: 10px; 
+    padding-left: 5px;
+} 
+.item4:after {  
+    content: '( hm..they always disappear )'; 
+    color: #A9A9A9;
+    font-size: 10px; 
+    padding-left: 5px;
+} 
+.item5:after {  
+    content: '( for my friends )'; 
+    color: #A9A9A9;
+    font-size: 10px; 
+    padding-left: 5px;
+} 
+*{transition: all .1s ease-in;}
+ul li:hover {
+	background: #8B7B8B;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
